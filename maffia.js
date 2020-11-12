@@ -5,10 +5,13 @@ function card(name, description, image) {
 }
 
 let deck = [
-  new card("Mimmi", "Bybor", "mimmi"),
-  new card("Fredrik", "Maffia", "fredrik"),
-  new card("Mia", "Doktor", "mia"),
-  new card("Sabina", "Polis", "sabina"),
+  new card("Jimmy", "Bybor", "jimmy1"),
+  new card("Peter", "Maffia", "peter1"),
+  new card("Hans", "Doktor", "hans1"),
+  new card("Tommy", "Polis", "tommy1"),
+  new card("Martin", "Maffia", "martin1"),
+  new card("Sahir", "Maffia", "sahir1"),
+
 ];
 
 function popRandom(deck) {
