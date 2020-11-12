@@ -11,7 +11,6 @@ let deck = [
   new card("Tommy", "Polis", "tommy1"),
   new card("Martin", "Maffia", "martin1"),
   new card("Sahir", "Maffia", "sahir1"),
-
 ];
 
 function popRandom(deck) {
@@ -27,9 +26,9 @@ document.getElementById("draw").onclick = function () {
   document.getElementById("display").innerHTML =
     '<img src="images/' +
     index.image +
-    '.png"><h3>' +
+    '.png"><h2>' +
     index.name +
-    "</h3><p>" +
+    "</h2><h2>" +
     index.description +
-    "</p>";
+    "</h2>";
 };
