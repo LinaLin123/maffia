@@ -1,0 +1,16 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: antiquewhite;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  padding: 5em;
+  justify-content: center;
+  align-content: center;
+  color: coral;
+  border: 2px;
+}
