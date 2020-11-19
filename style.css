@@ -12,7 +12,6 @@ body {
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
-  padding: 5em;
   justify-content: center;
   align-content: center;
   color: coral;
@@ -40,4 +39,44 @@ body {
 
 h2 {
   font-family: "Montserrat", sans-serif;
+}
+
+.item-wrapper {
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
+.item-card {
+  background: white;
+  width: 300px;
+  display: inline-block;
+  margin: auto;
+  border-radius: 14px;
+  position: relative;
+  text-align: center;
+  box-shadow: -1px 15px 30px -12px gray;
+  z-index: 9999;
+}
+
+.item-image {
+  position: relative;
+  height: 230px;
+  margin-bottom: 35px;
+  border-top-left-radius: 14px;
+  border-top-right-radius: 14px;
+}
+
+.item-image img {
+  max-width: 400px;
+  position: absolute;
+  top: -120px;
+  left: -60px;
+}
+
+.item-image-cartoon {
+  background: url("images/bgSmall.jpg");
+}
+
+h1 {
+  padding: 1em 0 1em 0;
 }
