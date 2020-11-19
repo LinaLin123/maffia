@@ -19,7 +19,7 @@ function popRandom(deck) {
 }
 
 document.getElementById("draw").onclick = function () {
-  var index = popRandom(deck);
+  let index = popRandom(deck);
 
   console.log(index);
 
