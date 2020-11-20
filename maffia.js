@@ -6,7 +6,12 @@ function card(name, role, description, image) {
 }
 
 let deck = [
-  new card("Fredrik ", "Bybor", "Har ingen funktion under natten", "fredrik"),
+  new card(
+    "Fredrik ",
+    "Stadsmänniska",
+    "Har ingen funktion under natten",
+    "fredrik"
+  ),
   new card(
     "Joakim ",
     "Maffia",
