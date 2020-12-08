@@ -1,3 +1,7 @@
+const socket = io("http://localhost:8080", { transport: ["websocket"] });
+
+socket.on("init", handleInit);
+
 function card(name, role, description, image) {
   this.name = name;
   this.role = role;
@@ -55,7 +59,7 @@ document.getElementById("draw").onclick = function () {
   console.log(index);
 
   document.getElementById("display").innerHTML =
-    '<div class="item-wrapper"><div class="item-card"> <div class="item-image item-image-cartoon"><img src="images/' +
+    '<div class="item-wrapper"><div class="item-card"> <div class="item-image item-image-cartoon"><img src="../images/' +
     index.image +
     '.png"></div> <div class="item-name"><h2>' +
     index.name +
@@ -65,3 +69,7 @@ document.getElementById("draw").onclick = function () {
     index.description +
     "</p></div></div>";
 };
+
+function handleInit(msg) {
+  console.log(msg);
+}

@@ -83,7 +83,7 @@ h2 {
 }
 
 .item-image-cartoon {
-  background: url("images/bgSmall.jpg");
+  background: url("../images/bgSmall.jpg");
 }
 
 h1 {
@@ -139,7 +139,7 @@ h1 {
 }
 
 .sky {
-  background: url("images/sky.png") no-repeat center;
+  background: url("../images/sky.png") no-repeat center;
   /* background-size: cover; */
   transform: translateZ(-600px) scale(3);
   background-position: 40% 26%;
@@ -148,7 +148,7 @@ h1 {
 }
 
 .cloud {
-  background: url("images/cloud.png") no-repeat center;
+  background: url("../images/cloud.png") no-repeat center;
   /* background-size: cover; */
   transform: translateZ(-400px) scale(2.33333333);
   background-position: 36% 40%;
@@ -156,7 +156,7 @@ h1 {
 }
 
 .cloud2 {
-  background: url("images/cloud.png") no-repeat center;
+  background: url("../images/cloud.png") no-repeat center;
   /* background-size: cover; */
   transform: translateZ(-400px) scale(2.33333333);
   background-position: 14% 30%;
@@ -164,7 +164,7 @@ h1 {
 }
 
 .cloud3 {
-  background: url("images/cloud.png") no-repeat center;
+  background: url("../images/cloud.png") no-repeat center;
   /* background-size: cover; */
   transform: translateZ(-400px) scale(2.33333333);
   background-position: 71% 29%;
@@ -172,7 +172,7 @@ h1 {
 }
 
 .house {
-  background: url("images/people3.png") no-repeat center;
+  background: url("../images/people3.png") no-repeat center;
   /* background-size: cover; */
   transform: translateZ(0) scale(1);
   background-position: 56% 100%;
