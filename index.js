@@ -1,7 +1,3 @@
-const socket = io("http://localhost:8080", { transport: ["websocket"] });
-
-socket.on("init", handleInit);
-
 function card(name, role, description, image) {
   this.name = name;
   this.role = role;
